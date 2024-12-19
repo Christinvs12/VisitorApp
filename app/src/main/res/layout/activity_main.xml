@@ -4,6 +4,14 @@
     android:orientation="vertical"
     android:gravity="center"
     android:layout_margin="30dp">
+    <TextView
+        android:text="VISITOR APP"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/vvis"
         android:text="View All Visitors"
