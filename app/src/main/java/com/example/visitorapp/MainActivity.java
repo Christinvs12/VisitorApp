@@ -21,6 +21,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         b1=(Button) findViewById(R.id.vvis);
         b2=(Button) findViewById(R.id.avis);
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent z=new Intent(getApplicationContext(),ViewVisitor.class);
+                startActivity(z);
+            }
+        });
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
